@@ -1,0 +1,29 @@
+  /* Style pour les images */
+  img {
+      width: 200px;
+      /* Ajustez la largeur selon vos besoins */
+      height: auto;
+      /* Assurez-vous que l'aspect ratio est préservé */
+      margin: 10px;
+      /* Ajoute une marge autour des images */
+  }
+
+  /* Style pour le tableau */
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      /* Ajoute un espace au-dessus du tableau */
+  }
+
+  th,
+  td {
+      font-size: 20px;
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+
+  th {
+      background-color: #f2f2f2;
+  }
