@@ -1,29 +1,73 @@
-  /* Style pour les images */
-  img {
-      width: 200px;
-      /* Ajustez la largeur selon vos besoins */
-      height: auto;
-      /* Assurez-vous que l'aspect ratio est préservé */
-      margin: 10px;
-      /* Ajoute une marge autour des images */
-  }
+.cont1 {
 
-  /* Style pour le tableau */
-  table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      /* Ajoute un espace au-dessus du tableau */
-  }
+    display: flex;
+    justify-content: center;
+}
 
-  th,
-  td {
-      font-size: 20px;
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-  }
+.cont2 {
+    border: solid red 2px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 238, 233);
+}
 
-  th {
-      background-color: #f2f2f2;
-  }
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style pour les images */
+img {
+    width: 300px;
+    /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    /* Assurez-vous que l'aspect ratio est préservé */
+    margin: 10px;
+    /* Ajoute une marge autour des images */
+}
+
+.im2 {
+    width: 500px;
+    /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    /* Assurez-vous que l'aspect ratio est préservé */
+    margin: 10px;
+    /* Ajoute une marge autour des images */
+}
+
+
+
+/* Style pour le tableau */
+table {
+    width: 80%;
+
+
+    margin-top: 20px;
+    /* Ajoute un espace au-dessus du tableau */
+}
+
+th,
+td {
+    background-color: #e2cdcd;
+    font-size: 20px;
+
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
